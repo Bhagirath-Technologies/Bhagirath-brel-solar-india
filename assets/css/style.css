@@ -79,12 +79,7 @@ html {
   }
 }
 
-@media only screen and (max-width:500px){
-  .card-element1{
-    position: relative;
-     z-index: 1;
-  }
-}
+
 @media only screen and (max-width:1080px) {
   .breadcrumb-style{
     position: relative;
@@ -110,9 +105,10 @@ html {
     top: -100px;
  }
  }
- @media only screen and (max-width:200px) {
+ @media only screen and (max-width:700px) {
   .slider-show{
-     position: absolute;
+     position: relative;
+     top:-300px;
   }
  }
  @media only screen and (max-width:500px) {
@@ -1194,10 +1190,22 @@ transform: 0.25;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 98vh;
+  height: 80vh;
   position: relative;
   z-index: 1;
 }
+@media only screen and (max-width:700px) {
+  .text-top{
+   position: relative;
+   top: -133px;
+  }
+  .slier-area{
+    position: relative;
+    top:-63px
+  }
+}
+
+
 .hero_img2:before {
   background: rgba(0, 0, 0, 0.6);
   content: " ";
@@ -1249,6 +1257,7 @@ transform: 0.25;
   font-weight: 500;
   word-spacing: 2px;
   letter-spacing: 2px;
+  margin-top: -134px;
 }
 .choose-heading p{
   font-size: 20px;
